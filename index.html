@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>APP - Coquille - Reachy_mini</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+<div class="hero">
+    <div class="hero-content">
+        <h1>APP - Coquille - Reachy_mini</h1>
+        <p class="tagline">Transfert d'expressivité faciale vers Reachy Mini</p>
+    </div>
+</div>
+
+<div class="container">
+    <div class="main-card">
+        <div class="upload-section">
+            <h2>Importer une vidéo</h2>
+            <p>Charge une vidéo contenant un visage humain pour extraire les signaux faciaux.</p>
+
+            <div class="input-group">
+                <label for="youtube-url">🔗 URL YouTube</label>
+                <input
+                        type="url"
+                        id="youtube-url"
+                        name="youtube-url"
+                        placeholder="https://www.youtube.com/watch?v=..."
+                />
+            </div>
+
+            <div class="separator">ou</div>
+
+            <div class="input-group">
+                <label for="file-input">📁 Fichier local</label>
+                <input
+                        type="file"
+                        id="file-input"
+                        name="video"
+                        accept="video/mp4"
+                />
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <p>
+        🤖 FaceToRobot •
+        <a href="https://github.com/pollen-robotics" target="_blank">Pollen Robotics</a> •
+        <a href="https://huggingface.co/spaces/pollen-robotics/reachy-mini-landing-page#apps" target="_blank">Browse More Apps</a>
+    </p>
+</div>
+</body>
+
+</html>
